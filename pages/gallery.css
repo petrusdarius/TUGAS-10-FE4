@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* body */
+body {
+    background-color: white;
+}
+
+/* navbar */
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: darkgray;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a .active {
+    color:white;
+    background-color: #72ab00;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    color: white;
+}
+
+/* header */
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    max-width: 100%;
+}
+
+.header img {
+    border-radius: 50%;
+    margin-right: 39%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: white;
+    color: #3B5998;
+}
+
+.fa-twitter {
+    background: white;
+    color: #55ACEE;
+}
+
+.fa-google {
+    background: white;
+    color: #dd5b39;
+}
+
+.fa-linkedin {
+    background: white;
+    color: #007bb5;
+}
+
+.header h1 {
+    color: #72ab00;
+}
+
+.header h2,h3,h4 {
+    color: #72ab00;
+    font-weight: lighter;
+    padding-bottom: 0%
+}
