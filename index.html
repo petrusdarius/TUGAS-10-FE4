@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Saya</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/ce47e2369d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <!-- navbar -->
+    <div class="sticky">
+        <ul class="nav">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#workex">Work Experience</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#info">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#gallery" target="_blank">Gallery</a></li>
+        </ul>
+    </div>
+    <!-- end navbar -->
+
+    <!-- header -->
+    <div class="header" id="home">
+        <img src="img/martin.jpg" alt="profile martin">
+        <br>
+        <h1>Petrus Darius Portofolio</h1>
+        <h4>500 Terry Francois Street <br> San Francisco, CA 94158</h4>
+        <h4>E-mail: info@mysite.com</h4>
+        <h4>phone: 123-456-7890</h4>
+
+        <!-- Social Media -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </div>
+        
+
+    <!-- end header -->
+
+    <table class="konten">
+        <tr>
+            <td>
+                <!-- artikel personal -->
+                <article id="info">
+                    <h2>Professional Info</h2>
+                    <hr>
+        
+                    <p>Perkenalkan dirimu dan kelebihanmu Perkenalkan
+                        dirimu dan kelebihanmu Perkenalkan dirimu dan
+                        kelebihanmu Perkenalkan dirimu dan kelebihanmu
+                        Perkenalkan dirimu dan kelebihanmu Perkenalkan dirimu dan
+                        kelebihanmu</p>
+        
+                    <p>Perkenalkan dirimu dan kelebihanmu Perkenalkan
+                        dirimu dan kelebihanmu Perkenalkan dirimu dan
+                        kelebihanmu Perkenalkan dirimu dan kelebihanmu
+                        Perkenalkan dirimu dan kelebihanmu Perkenalkan dirimu dan
+                        kelebihanmu</p>
+        
+                    <p>Perkenalkan dirimu, pengalaman dan skill yang kamu punya</p>
+                    <p>Jangan Menyerah!!</p>    
+                </article>
+                <!-- end personal -->
+        
+        
+                <!-- Artikel pengalaman kerja -->
+                <article id="workex">
+                    <h2>Work Experience</h2>
+                    <hr>
+                    <h3>Job Title</h3>
+                    <h4>Tahun</h4>
+                    <p>Saya pernah mengikuti lomba desain website dari Dicoding X Indosat Ooredoo dengan tema <span style="font-weight: bold;">"Mengubah Dunia melalui Teknologi"</span> dan memenangkannya</p>
+        
+                    <h3>Job Title</h3>
+                    <h4>Tahun</h4>
+                    <p>Saya pernah mengerjakan proyek mandiri web desain</p>
+        
+                    <h3>Job Title</h3>
+                    <h4>Tahun</h4>
+                    <p>Saya pernah magang sebagai front-end di perusahaan A dengan jobdesk melakukan desain website agar dapat mengundang user untuk mengunjungi website</p>
+                </article>
+                <!-- end pengalaman kerja -->
+        
+        
+                <!-- artikel edukasi -->
+                <article id="edu">
+                    <h2>Education</h2>
+                    <hr>
+        
+                    <h4>Univesitas Brawijaya</h4>
+                    <h5>Bachelor's Degree, Physics</h5>
+                    <h5>2015-2019</h5>
+        
+                    <h4>Universitas Gadjah Mada</h4>
+                    <h5>Bachelor's Degree, Information Engineering</h5>
+                    <h5>2020-2023</h5>
+                </article>
+                <!-- end edukasi -->
+            </td>
+
+            <td>
+                 <!-- sidebar -->
+                <div class="sidebar">
+
+                    <!-- language -->
+                    <div id="language">
+                        <h2>Languages</h2>
+                        <hr>
+                            <p>English</p>
+                            <p>Indonesian</p>
+                            <p>Javanese</p>
+                    </div>
+
+                    <!-- skill -->
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <hr>
+                        <p>git</p>
+                        <p>Corel</p>
+                        <p>Premiere Pro</p>
+                        <p>HTML, CSS, JS</p>
+                    </div>
+                </div>
+                <!-- end Side-content -->
+            </td>
+        </tr>
+    </table>
+
+     <!-- Form -->
+     <div class="container">
+        <h2>Give me some messages</h2>
+        <form action="/action_page.php"></form>
+
+        Isi form tersebut dengan komponen-komponen formulir berikut:
+
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">First name</label>
+            </div>
+
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your Name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Last Name</label>
+            </div>
+
+            <div class="col-75">
+                <input type="text" name="lastname" id="lname" placeholder="Your last name">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Country</label>
+            </div>
+
+            <div class="col-75">
+                <select name="country" id="country">
+                    <option value="australia">Australia</option>
+                    <option value="caada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Subject</label>
+            </div>
+
+            <div class="col-75">
+                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something" style="height: 200px;"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+    <!-- end form -->
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <a href="mailto:hege@example.com">hege@example.com</a>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>
