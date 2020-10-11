@@ -6,43 +6,39 @@
 /* body */
 body {
     background-color: white;
+    margin-top: 50px;
 }
 
 /* navbar */
-li {
-    float: left;
+
+nav {
+    left: 0;
+    top: 0;
+    text-align: left;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    line-height: 30px;
 }
 
-li a {
-    display: block;
+nav a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    background-color: darkgray;
+    display: inline-block;
+    padding: 14px 16px;
 }
 
-li a:hover:not(.active) {
-    background-color: #ddd;
-}
-
-li a .active {
-    color:white;
+nav .active {
     background-color: #72ab00;
 }
 
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-.nav {
-    color: white;
+nav a:hover {
+    background-color: #ddd;
 }
 
 /* header */
 .header {
+    margin-top: 50px;
     background-color: #f8f8f8;
     padding: 20px;
     text-align: center;
@@ -52,7 +48,6 @@ li a .active {
 
 .header img {
     border-radius: 50%;
-    margin-right: 39%;
 }
 
 .fa {
